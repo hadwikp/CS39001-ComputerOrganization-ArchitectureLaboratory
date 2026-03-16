@@ -1,0 +1,21 @@
+Half Adder Truth Table:
+A B | Sum Carry
+0 0 | 0   0
+0 1 | 1   0
+1 0 | 1   0
+1 1 | 0   1
+
+Full Adder Truth Table:
+A B Cin | Sum Carry
+0 0  0  | 0   0
+0 0  1  | 1   0
+0 1  0  | 1   0
+0 1  1  | 0   1
+1 0  0  | 1   0
+1 0  1  | 0   1
+1 1  0  | 0   1
+1 1  1  | 1   1
+
+
+Q1d)
+we can pass one of the inputs through a XOR gate and then control the addition or subtraction mode with another wire and when we pass 0 through it, it just gives addition of the two inputs , but when 1 is passed , then the b becomes complimented and in the carry also we get 1 so the operation now becomes a subtraction overall.
