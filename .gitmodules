@@ -1,0 +1,3 @@
+[submodule "32bit-RISC-Processor"]
+	path = 32bit-RISC-Processor
+	url = https://github.com/hadwikp/32bit-RISC-Processor.git
